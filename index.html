@@ -55,9 +55,27 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button class="btn-menu-close">Close</button>
+          <nav class="mobile-nav-menu">Navigation</nav>
+          <address class="address-menu">Address</address>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
       </div>
     </header>
-    <main class="page-main">
+    <main class="page-main hidden">
       <!--section-one-->
       <section class="page-section">
         <div class="container container-page">
@@ -68,7 +86,7 @@
         </div>
       </section>
       <!--section-two-->
-      <section class="page-benefits">
+      <section class="page-benefits hidden">
         <div class="container container-benefits">
           <h2 class="visually-hidden">Benefits</h2>
           <ul class="benefits-list">
@@ -124,7 +142,7 @@
         </div>
       </section>
       <!--section-three-->
-      <section class="page-team">
+      <section class="page-team hidden">
         <div class="container container-team">
           <h2 class="team-heading">Our Team</h2>
           <ul class="team-list">
@@ -304,7 +322,7 @@
         </div>
       </section>
       <!--section-four-->
-      <section class="page-portfolio">
+      <section class="page-portfolio hidden">
         <div class="container container-portfolio">
           <h2 class="heading-our-portfolio">Our Portfolio</h2>
           <ul class="list-portfolio">
@@ -427,7 +445,7 @@
       </section>
     </main>
     <!--footer-->
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container page-container">
         <div class="container-footer">
           <a class="logo footer-logo" href="./index.html"
@@ -494,7 +512,7 @@
     </footer>
     <!--modal-->
     <!--is-open (on,off)-->
-    <div class="backdrop is-open">
+    <div class="backdrop hidden">
       <div class="modal">
         <button class="btn-modal" type="button">
           <svg class="icon-modal-close" width="8" height="8">
