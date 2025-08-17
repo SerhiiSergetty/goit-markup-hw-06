@@ -37,62 +37,6 @@
 .contacts {
   margin-left: auto;
 }
-/*section-one*/
-
-.page-section {
-  padding: 188px 0;
-  background: #2e2f42;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/background-section-one.jpg);
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: auto;
-}
-
-.section-paragraph {
-  max-width: 496px;
-  margin: 0 auto;
-  margin-bottom: 48px;
-}
-
-.section-button {
-  display: block;
-  min-width: 169px;
-  border-radius: 4px;
-  margin: 0 auto;
-  height: 56px;
-  border: none;
-}
-
-.section-paragraph {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-}
-.section-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background: #4d5ae5;
-  color: #fff;
-  cursor: pointer;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.section-button:hover,
-.section-button:focus {
-  background: #404bbf;
-}
 
 /*section-two*/
 
