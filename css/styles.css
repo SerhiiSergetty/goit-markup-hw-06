@@ -522,9 +522,9 @@ button {
 
 .team-list {
   max-width: 264px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 .name-prof {
   padding: 32px 0;
@@ -577,5 +577,19 @@ button {
   fill: #f4f4fd;
 }
 .list-item-team {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
   background-color: #ffffff;
+}
+
+.icons-link:hover,
+.icons-link:focus {
+  background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .container .container-team {
+    max-width: 1158px;
+  }
 }
