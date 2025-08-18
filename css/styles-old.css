@@ -67,6 +67,13 @@
 }
 .team-name {
   margin-bottom: 8px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .team-heading {
@@ -77,14 +84,7 @@
   color: #2e2f42;
   text-transform: capitalize;
 }
-.team-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
+
 .profession-list {
   font-size: 16px;
   line-height: 1.5;
