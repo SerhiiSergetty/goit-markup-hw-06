@@ -38,45 +38,6 @@
   margin-left: auto;
 }
 
-/*section-two*/
-
-.container-svg {
-  margin-bottom: 8px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background-color: #f4f4fd;
-  height: 112px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.page-benefits {
-  padding: 120px 0;
-}
-.benefits-list {
-  display: flex;
-  gap: 24px;
-}
-
-.list-item-benefits {
-  width: calc((100% - 72px) / 4);
-}
-
-.heading-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-.benefits-item {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 /*section-three*/
 
 .name-prof {
