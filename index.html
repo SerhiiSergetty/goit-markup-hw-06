@@ -200,7 +200,11 @@
           <ul class="team-list">
             <li class="list-item-team">
               <img
-                src="./images/team-1.jpg"
+                srcset="
+                  ./images/team/team-1-min.jpg    1x,
+                  ./images/team/team-1@2x-min.jpg 2x
+                "
+                src="./images/team/team-1-min.jpg 2x"
                 alt="team-1"
                 width="264"
                 height="260"
@@ -243,7 +247,11 @@
             </li>
             <li class="list-item-team">
               <img
-                src="./images/team-2.jpg"
+                srcset="
+                  ./images/team/team-2-min.jpg    1x,
+                  ./images/team/team-2@2x-min.jpg 2x
+                "
+                src="./images/team/team-2-min.jpg"
                 alt="team-2"
                 width="264"
                 height="260"
@@ -287,6 +295,10 @@
 
             <li class="list-item-team">
               <img
+                srcset="
+                  ./images/team/team-3-min.jpg    1x,
+                  ./images/team/team-3@2x-min.jpg 2x
+                "
                 src="./images/team-3.jpg"
                 alt="team-3"
                 width="264"
@@ -330,7 +342,11 @@
             </li>
             <li class="list-item-team">
               <img
-                src="./images/team-4.jpg"
+                srcset="
+                  ./images/team/team-4-min.jpg    1x,
+                  ./images/team/team-4@2x-min.jpg 2x
+                "
+                src="./images/team/team-4-min.jpg"
                 alt="team-4"
                 width="264"
                 height="260"
@@ -564,7 +580,7 @@
     </footer>
     <!--modal-->
     <!--is-open (on,off)-->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="btn-modal" type="button">
           <svg class="icon-modal-close" width="8" height="8">
