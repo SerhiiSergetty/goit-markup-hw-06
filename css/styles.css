@@ -784,7 +784,7 @@ button {
 }
 
 .container-footer {
-  padding-top: 96px;
+  margin-top: 96px;
   margin-bottom: 72px;
 }
 
@@ -927,18 +927,74 @@ button {
   .page-footer {
     width: 768px;
   }
+
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
   .container-footer {
     width: 264px;
-    margin-left: 108px;
+    padding-top: 0;
   }
-
   .container-footer-social {
-    padding-top: 96px;
-    margin-left: 24px;
+    margin-top: 96px;
+  }
+  .page-container {
+    margin-left: 108px;
   }
 
-  .input-email-footer {
+  .container-form {
+    margin-bottom: 96px;
+  }
+
+  .paragraph-footer-subscribe {
+    text-align: start;
+  }
+
+  .footer-logo {
+    padding-left: 0;
+  }
+  .footer-paragrapf-social {
+    text-align: start;
+  }
+  .button-footer {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .page-footer {
+    width: 1440px;
+    padding: 100px 0;
+  }
+
+  .page-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .container-footer {
+    margin-right: 120px;
+  }
+
+  .footer-paragrapf {
     width: 264px;
-    margin-left: 108px;
+  }
+
+  .footer-paragrapf-social {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+
+  .container-form {
+    margin-left: auto;
+  }
+
+  .footer-form {
+    display: flex;
+    gap: 24px;
   }
 }
