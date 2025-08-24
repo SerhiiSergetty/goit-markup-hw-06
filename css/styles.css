@@ -351,27 +351,47 @@ button {
 }
 @media (resolution: 192dpi) {
   .page-section {
-    background-image: url(../images/background/background-mob@2x-min.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/background/background-mob@2x-min.jpg);
   }
 }
 @media (min-width: 768px) {
   .page-section {
-    background-image: url(../images/background/background-tab-min.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/background/background-tab-min.jpg);
   }
   @media (resolution: 192dpi) {
     .page-section {
-      background-image: url(../images/background/background-tab@2x-min.jpg);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/background/background-tab@2x-min.jpg);
     }
   }
 }
 
 @media (min-width: 1158px) {
   .page-section {
-    background-image: url(../images/background/background-des-min.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/background/background-des-min.jpg);
   }
   @media (resolution: 192dpi) {
     .page-section {
-      background-image: url(../images/background/background-des@2x-min.jpg);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/background/background-des@2x-min.jpg);
     }
   }
 }
