@@ -46,6 +46,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 button {
@@ -339,12 +342,38 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/background-section-one.jpg);
+    url(../images/background/background-mob-min.jpg);
   max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: auto;
+}
+@media (resolution: 192dpi) {
+  .page-section {
+    background-image: url(../images/background/background-mob@2x-min.jpg);
+  }
+}
+@media (min-width: 768px) {
+  .page-section {
+    background-image: url(../images/background/background-tab-min.jpg);
+  }
+  @media (resolution: 192dpi) {
+    .page-section {
+      background-image: url(../images/background/background-tab@2x-min.jpg);
+    }
+  }
+}
+
+@media (min-width: 1158px) {
+  .page-section {
+    background-image: url(../images/background/background-des-min.jpg);
+  }
+  @media (resolution: 192dpi) {
+    .page-section {
+      background-image: url(../images/background/background-des@2x-min.jpg);
+    }
+  }
 }
 
 .section-paragraph {
